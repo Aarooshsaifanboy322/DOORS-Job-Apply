@@ -1,0 +1,19 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}
+.apply-btn.apply {
+    border-radius: 7px;
+    border: transparent;
+    width: 185px;
+    height: 37px;
+    font-size: x-large;
+    transition-duration: 0.9s;
+    cursor: pointer;
+    background-color: blue;
+}
+.transition:hover {
+    background-color: darkblue;
+    border: transparent;
+}

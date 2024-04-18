@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-container {
+    background: transparent;
+}
+#input-username {
+    border: transparent;
+    width: 271px;
+    height: 31px;
+    color: white;
+    font-size: large;
+    border-radius: 7px;
+    background-color: chocolate;
+}
+#input-display {
+    border: transparent;
+    width: 271px;
+    height: 31px;
+    font-size: large;
+    border-radius: 7px;
+    background-color: aqua;
+}
+.sumbitform_JOIN {
+    width: 176px;
+    height: 35px;
+    border-radius: 5px;
+    border: transparent;
+    font-size: larger;
+    background-color: chartreuse;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.additional:hover {
+    transform: translateY(-4px);
+}

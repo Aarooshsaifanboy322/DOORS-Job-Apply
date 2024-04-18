@@ -1,0 +1,12 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.apply_job {
+    width: 176px;
+    height: 34px;
+    border: transparent;
+    border-radius: 4px;
+    background-color: aquamarine;
+    font-size: larger;
+    cursor: pointer;
+}

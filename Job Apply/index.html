@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Apply Form</title>
+</head>
+<body>
+    <center>
+        <h1>Please fill out this form to be applied</h1>
+    </center>
+    <center>
+        <div class="form-container">
+            <form action="" method="post">
+                <label for="ro-name">Roblox Username:</label>
+                <input type="text" name="username" id="input-username">
+                <br><br>
+                <label for="ro-display">Display Name (Optional):</label>
+                <input type="text" name="username" id="input-display">
+                <br><br>
+                <input type="checkbox" name="computer-checkbox" id="computer-check" onclick="readytojoin()">
+                <label for="computer-verification-label">Computer</label>
+                <br><br>
+                <button type="submit" class="sumbitform_JOIN additional" disabled onclick="alert('You have been applied to the dev team.'); link()" id="enable_apply">Apply</button>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
